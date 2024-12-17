@@ -6,6 +6,7 @@ import React from "react";
 const App = () => {
   return (
     <div>
+    <h1>User Information</h1>
       <Provider store={store}>
         <UserInfo />
       </Provider>
