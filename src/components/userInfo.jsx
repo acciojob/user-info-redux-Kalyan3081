@@ -11,8 +11,6 @@ const UserInfo = () => {
 
     return (
         <>
-            <h1>User information</h1>
-
             <label htmlFor="username">Name:</label>
             <input
                 type="text"
@@ -31,8 +29,10 @@ const UserInfo = () => {
             />
 
             <p>Current values in store:</p>
-            <p>Name - {name}</p>
-            <p>Email - {email} </p>
+            <div className='output'>
+                <p>Name - {name}</p>
+                <p>Email - {email} </p>
+            </div>
         </>
     )
 }
